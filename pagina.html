@@ -427,18 +427,6 @@ setInterval(function(){
   </div>
 </div>
 
- <!-- <span class="botonhorario">Llámanos y haz una reservación: 809-343-5853.</span>
- <span class="botonhorario">Horarios: lunes a viernes de 2PM a 10PM y sábados .y domingos de 12PM a 4PM.</span>
- <span class="botonhorario"></span> -->
-
- <div class="form">
-  <a href = "C:/Users/edwin/OneDrive/Escritorio/MACDALYS/Macdalys.html" 
-  target = "_self">
-    <button>Llena nuestro formulario de opiniones!</button>
-  </a> 
-</div>
-
-
  <center> 
    <div class="anuncio">
     <embed src="ANUNCIO ANIMATE/machador.html" type=""
@@ -446,6 +434,40 @@ setInterval(function(){
    </div>
   </center>
 
+  
+  <h1 id="Nosotrosform">Llena el formulario de opiniones!</h1>
+     <section>
+      <div class="containerdeform">
+        <form action="https://formspree.io/f/xgeraypa" method="POST" id="my-form">
+    
+          <div class="form-group">
+            <label for="nombre"> Nombre: </label>
+            <input type="text" id="firstName" name="Nombre">
+          </div>
+    
+          <div class="form-group">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="lastName" name="Apellido">
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="Correo electrónico">
+          </div>
+    
+          <div class="form-group">
+            <label for="massage">Danos tu opinión:</label>
+            <textarea name="Reseña" id="massage" cols="30" rows="10"></textarea>
+          </div>
+    
+          <button type="submit">Enviar</button>
+          <button type="reset">Eliminar</button>
+        </form>
+      </div>
+      <div id="status"></div>
+    </section>
+  </div>
+  </div>
 
  <footer>
   <a name="contacto"></a>
